@@ -1,4 +1,4 @@
-[//]: # ( vim:ts=4 )
+[//]: # ( vim:set ts=4: )
 
 # Useful Links #
 
