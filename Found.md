@@ -1,4 +1,8 @@
-vim:ts=4
+[comment]: <> ( vim:ts=4
+)
+
+# Useful Links #
+
 
 1. Markdown
 	* [Markdown](https://en.wikipedia.org/wiki/Markdown) -
