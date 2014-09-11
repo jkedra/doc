@@ -1,5 +1,4 @@
-[comment]: <> ( vim:ts=4
-)
+[//]: # ( vim:ts=4 )
 
 # Useful Links #
 
