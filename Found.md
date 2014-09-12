@@ -2,6 +2,11 @@
 
 # Useful Links #
 
+## Check it out ##
+1. [Jekyll](http://jekyllrb.com/) - 
+   Transform your plain text into static websites and blogs.
+
+## In-depth ##
 
 1. Markdown
 	* [Markdown](https://en.wikipedia.org/wiki/Markdown) -
