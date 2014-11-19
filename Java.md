@@ -18,3 +18,7 @@ http://logging.apache.org/log4j/2.x/manual/index.html
 ## Decompile ##
 
 1. [Java Decompiler](http://jd.benow.ca/)
+ 
+
+## Eclipse ##
+Nice plugin to finding bugs: findbugs.cs.umd.edu
