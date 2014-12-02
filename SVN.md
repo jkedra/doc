@@ -18,3 +18,4 @@ Using the command line client, you use the `--depth` and `--set-depth` options t
 
 **EDIT**: The update depth can be seen as a sort of "visibility level", and is remembered by Subversion, i.e. if you do a svn update on your working copy, it will only update to the current visibility level.
 
+> svn checkout --immediate http://url
