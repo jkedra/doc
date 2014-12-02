@@ -1,4 +1,6 @@
 # SVN #
+https://help.github.com/categories/writing-on-github/
+
 
 ### Ignoring specific files
 svn propset svn:ignore "*.jpg" . 
@@ -12,6 +14,7 @@ Apart from just checking out the folders you want (which only works if you want 
 
 Using the command line client, you use the `--depth` and `--set-depth` options to svn update. If you are using TortoiseSVN, there is a "Checkout Depth" option in the checkout dialog.
 
-EDIT: To clarify against your specific question, you would first to a checkout of your source tree with depth "immediates". This will give you all your folders, but they will initially be empty. Then you can drill down in the Extensions and Themes directories by updating them to "fully recursive" depth (`svn update --set-depth infinity` or in TortoiseSVN "Update to revision → Update Depth → "Fully Recursive").
+**EDIT**: To clarify against your specific question, you would first to a checkout of your source tree with depth "immediates". This will give you all your folders, but they will initially be empty. Then you can drill down in the Extensions and Themes directories by updating them to "fully recursive" depth (`svn update --set-depth infinity` or in TortoiseSVN "Update to revision → Update Depth → "Fully Recursive").
 
-EDIT: The update depth can be seen as a sort of "visibility level", and is remembered by Subversion, i.e. if you do a svn update on your working copy, it will only update to the current visibility level.
+**EDIT**: The update depth can be seen as a sort of "visibility level", and is remembered by Subversion, i.e. if you do a svn update on your working copy, it will only update to the current visibility level.
+
