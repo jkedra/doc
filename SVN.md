@@ -3,8 +3,8 @@ https://help.github.com/categories/writing-on-github/
 
 
 ### Ignoring specific files
-svn propset svn:ignore "*.jpg" . 
-svn propedit svn:ignore . 
+    svn propset svn:ignore "*.jpg" . 
+    svn propedit svn:ignore . 
 
 ### Checkout Selected Dirs only
 
@@ -18,4 +18,8 @@ Using the command line client, you use the `--depth` and `--set-depth` options t
 
 **EDIT**: The update depth can be seen as a sort of "visibility level", and is remembered by Subversion, i.e. if you do a svn update on your working copy, it will only update to the current visibility level.
 
-> svn checkout --immediate http://url
+```
+svn checkout --immediate http://url
+svn update --set-depth immediates Projects
+svn update --set-depth infinity FOLDER
+```
