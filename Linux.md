@@ -8,6 +8,12 @@
 ####Autostart####
 `sudo update-rc.d -f postgresql remove`
 
+####Default####
+How to update alternatives for Linux Default Editor
+
+`sudo update-alternatives --config editor`
+
+
 ####GUI####
 
 CompizConfig Settings Manager call it as `ccsm` then choose:
