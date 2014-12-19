@@ -5,5 +5,14 @@
 3. http://cntlm.sourceforge.net/ - NTLM/NTLM Session Response/NTLMv2 authenticating HTTP proxy
 
 ###Ubuntu###
-Autostart
-sudo update-rc.d -f postgresql remove
+####Autostart####
+`sudo update-rc.d -f postgresql remove`
+
+####GUI####
+
+CompizConfig Settings Manager call it as `ccsm` then choose:
+```
+Desktop->Ubuntu Unity Plugin
+               ->Key to show the HUD when tapped
+                <DISABLED>
+```
