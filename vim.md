@@ -6,3 +6,5 @@
 
     :nmap <F2> gUwW
     :nmap <F3> guwW
+
+http://vim.wikia.com/wiki/List_loaded_scripts
