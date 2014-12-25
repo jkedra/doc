@@ -1,7 +1,8 @@
 #Python#
 
 ##Education##
-https://developers.google.com/edu/python
+1. [The Hitchhiker's Guide to Python](http://docs.python-guide.org/en/latest/)
+2. https://developers.google.com/edu/python
 
 ##Tools##
 1. [PIP tool for installing and managing Python packages.](https://pip.pypa.io/en/latest/index.html)
