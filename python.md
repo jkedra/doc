@@ -8,7 +8,12 @@ https://developers.google.com/edu/python
 2. [VirtualEnv](http://docs.python-guide.org/en/latest/dev/virtualenvs/)
 3. [Wingide101](http://wingware.com/downloads/wingide-101)
 
-##django##
+## WWW ##
+
+### HTML ###
+1. [Jinja](http://jinja.pocoo.org/) full featured template system for Python
+
+### django ###
 1. [Tutorial](https://docs.djangoproject.com/en/1.7/intro/tutorial01/)
 2. [Tutorial Files](https://github.com/django/djangoproject.com)
 
