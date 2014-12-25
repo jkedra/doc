@@ -11,8 +11,8 @@
 
 ## WWW ##
 
-### HTML ###
 1. [Jinja](http://jinja.pocoo.org/) full featured template system for Python
+2. [Tornado](http://www.tornadoweb.org/en/stable/) Python web framework
 
 ### django ###
 1. [Tutorial](https://docs.djangoproject.com/en/1.7/intro/tutorial01/)
