@@ -11,7 +11,10 @@
 
 ## WWW ##
 
+### Python's Templates ###
 1. [Jinja](http://jinja.pocoo.org/) full featured template system for Python
+2. [Jinja Example](http://runnable.com/Upjr1LZv_TADAAOj/example-website-layout-in-jinja2-for-python-and-wsgi)
+2. [Google Cloud - Using Templates](https://cloud.google.com/appengine/docs/python/gettingstartedpython27/templates)
 2. [Apache's mod_wsgi](http://flask.pocoo.org/docs/0.10/deploying/mod_wsgi/)
 2. [Tornado](http://www.tornadoweb.org/en/stable/) Python web framework
 
