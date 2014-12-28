@@ -1,4 +1,4 @@
 ## Public Documents ##
 
-Contains public documents I wrote.
+A notepad with useful information found on the net and elsewhere.
 
