@@ -22,3 +22,9 @@ Desktop->Ubuntu Unity Plugin
                ->Key to show the HUD when tapped
                 <DISABLED>
 ```
+
+###Redhat###
+
+####RPM####
+
+[You've been told that working with RPMs needs system administrator privileges? You've been misled.](http://www.nordugrid.org/documents/rpm_for_everybody.html)
