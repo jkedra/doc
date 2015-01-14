@@ -6,5 +6,14 @@
 
     :nmap <F2> gUwW
     :nmap <F3> guwW
+    
+    :map <F4> @q
+
 
 http://vim.wikia.com/wiki/List_loaded_scripts
+
+## Useful substitues ##
+
+SQL case correction:
+
+    %s/\vInsert into (\w+)(\_s*)(\(.*\))(\_s*)Values(\_s*)(\(.*\));/INSERT INTO \L\1\2\3\4\EVALUES\5\6;/gi
