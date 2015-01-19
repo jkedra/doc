@@ -12,6 +12,9 @@
     git config --global alias.logg 'log --pretty=format:"%h %s" --graph'
     git config --global alias.diffl 'diff HEAD~'
 
+# Interesting links #
+1. [Understanding the Index](http://alblue.bandlem.com/2011/10/git-tip-of-week-understanding-index.html)
+
 # GIT cheat sheet #
 Originally picked from http://web.archive.org/web/20130909071548/http://cheat.errtheblog.com/s/git
 Slightly modified by myself.
