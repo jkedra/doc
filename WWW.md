@@ -10,3 +10,16 @@
 2. [Equal Column Heigh](http://matthewjamestaylor.com/blog/equal-height-columns-cross-browser-css-no-hacks) - 
    The problem originates from the fact that with floating divs we cannot
    inherit height property.
+# Blogs and Magazines #
+1. [Smashing Magazine](http://www.smashingmagazine.com/)
+
+# Around GitPages #
+## Jekyll ##
+
+1. Using Jekyll...
+    - [...with pages (blogging with Jekyll)](https://help.github.com/articles/using-jekyll-with-pages/)
+    - [..plugins](https://help.github.com/articles/using-jekyll-plugins-with-github-pages/)
+    - https://pages.github.com/versions/
+2. Jekyll Templates: http://www.jekyllnow.com/
+3. Smashing Magazine:
+   [Build A Blog With Jekyll And GitHub Pages](http://www.smashingmagazine.com/2014/08/01/build-blog-jekyll-github-pages/) -
