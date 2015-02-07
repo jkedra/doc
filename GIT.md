@@ -1,4 +1,4 @@
-## GIT Aliases ##
+# Aliases #
 
     git config --global alias.co checkout
     git config --global alias.br branch
@@ -12,7 +12,10 @@
     git config --global alias.logg 'log --pretty=format:"%h %s" --graph'
     git config --global alias.diffl 'diff HEAD~'
 
-# Interesting links #
+# HOWTO #
+1. StackOverflow: [Detach subdirectory into separate Git repository] (http://stackoverflow.com/questions/359424/detach-subdirectory-into-separate-git-repository/17864475#17864475)
+
+# Read #
 1. [Understanding the Index](http://alblue.bandlem.com/2011/10/git-tip-of-week-understanding-index.html)
 
 # GIT cheat sheet #
