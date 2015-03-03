@@ -17,3 +17,8 @@ http://vim.wikia.com/wiki/List_loaded_scripts
 SQL case correction:
 
     s/\vInsert into (\w+)(\_s*)(\(\_.{-}\))(\_s*)Values(\_s*)(\(\_.{-}\));/INSERT INTO \L\1\2\3\4\EVALUES\5\6;/gi
+    
+Incrementing partition:
+
+    %s/\v(\d){4}/\=submatch(0)+1/g
+    
