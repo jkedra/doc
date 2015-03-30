@@ -28,3 +28,6 @@
    - http://jekyllbootstrap.com/
 3. Smashing Magazine:
    [Build A Blog With Jekyll And GitHub Pages](http://www.smashingmagazine.com/2014/08/01/build-blog-jekyll-github-pages/) -
+4. Installing Jekyll:
+   - [First install Ruby and don't use apt-get](http://ryanbigg.com/2014/10/ubuntu-ruby-ruby-install-chruby-and-you/)
+
