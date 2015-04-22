@@ -92,6 +92,12 @@ Configuration
     git config core.autocrlf true
       This setting tells git to convert the newlines to the system's standard
       when checking out files, and to LF newlines when committing in
+      Windows text file uses CRLF, Unix and Mac only LF.
+      So enforcing this setting at Windows makes git to convert a text file
+      to LF when shipping to git repository and converting back to CRLF when
+      retriving from git. 
+
+      http://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration#Formatting-and-Whitespace
 
     git config --list
       To view all options
