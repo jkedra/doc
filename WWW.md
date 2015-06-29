@@ -2,6 +2,7 @@
 
 1. [SVG Colors Names](http://www.w3.org/TR/2003/CR-css3-color-20030514/#svg-color)
 2. [HTML5 Reference](http://www.w3schools.com/tags/default.asp)
+3. [Bootstrap](http://getbootstrap.com/), a framework to develop responsive website
 
 
 ## CSS ##
