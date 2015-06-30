@@ -1,7 +1,8 @@
 # WWW Techniques #
 
 1. [Jekyll](#jekyll) - static template system behind GitPages,
-2. [Octopress](http://octopress.org/docs/) - a framework designed for Jekyll,
+   - [Octopress](http://octopress.org/docs/) - a framework designed for Jekyll,
+2. [Obraz](http://obraz.pirx.ru/) — static site generator in a single Python file mostly compatible with Jekyll
 3. [Bootstrap](http://getbootstrap.com/), a framework to develop responsive website,
 4. [SVG Colors Names](http://www.w3.org/TR/2003/CR-css3-color-20030514/#svg-color)
 5. [HTML5 Reference](http://www.w3schools.com/tags/default.asp)
