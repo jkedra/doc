@@ -1,15 +1,17 @@
 # WWW Techniques #
 
-1. [SVG Colors Names](http://www.w3.org/TR/2003/CR-css3-color-20030514/#svg-color)
-2. [HTML5 Reference](http://www.w3schools.com/tags/default.asp)
-3. [Bootstrap](http://getbootstrap.com/), a framework to develop responsive website
-4. [FontAwesome](http://fontawesome.io/get-started/)
+1. [Jekyll](#jekyll) - static template system behind GitPages,
+2. [Octopress](http://octopress.org/docs/) - a framework designed for Jekyll,
+3. [Bootstrap](http://getbootstrap.com/), a framework to develop responsive website,
+4. [SVG Colors Names](http://www.w3.org/TR/2003/CR-css3-color-20030514/#svg-color)
+5. [HTML5 Reference](http://www.w3schools.com/tags/default.asp)
+6. [FontAwesome](http://fontawesome.io/get-started/)
 
 
 ## CSS ##
 1. [CSS Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
 2. [Learn Layout](http://learnlayout.com)
-2. [Equal Column Heigh](http://matthewjamestaylor.com/blog/equal-height-columns-cross-browser-css-no-hacks) - 
+3. [Equal Column Heigh](http://matthewjamestaylor.com/blog/equal-height-columns-cross-browser-css-no-hacks) - 
    The problem originates from the fact that with floating divs we cannot
    inherit height property.
 
