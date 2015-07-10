@@ -15,6 +15,8 @@
 # HOWTO #
 1. StackOverflow: [Detach subdirectory into separate Git repository] (http://stackoverflow.com/questions/359424/detach-subdirectory-into-separate-git-repository/17864475#17864475)
 2. [Using GIT with Subversion](http://viget.com/extend/effectively-using-git-with-subversion)
+3. [Installing GIT](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+4. [Issue with GIT compile](http://madcoda.com/2013/09/cant-locate-extutilsmakemaker-pm-while-compile-git/)
 
 # Read #
 1. [Understanding the Index](http://alblue.bandlem.com/2011/10/git-tip-of-week-understanding-index.html)
