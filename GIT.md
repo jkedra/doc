@@ -17,6 +17,7 @@
 2. [Using GIT with Subversion](http://viget.com/extend/effectively-using-git-with-subversion)
 3. [Installing GIT](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 4. [Issue with GIT compile](http://madcoda.com/2013/09/cant-locate-extutilsmakemaker-pm-while-compile-git/)
+5. [Ascii Doc for GIT](http://www.methods.co.nz/asciidoc/INSTALL.html)
 
 # Read #
 1. [Understanding the Index](http://alblue.bandlem.com/2011/10/git-tip-of-week-understanding-index.html)
