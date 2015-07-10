@@ -1,20 +1,20 @@
 
-##General##
+## General
 1. apg - generates several random passwords
 2. corkscrew - tunelling
 3. http://cntlm.sourceforge.net/ - NTLM/NTLM Session Response/NTLMv2 authenticating HTTP proxy
 
-###Ubuntu###
-####Autostart####
+### Ubuntu
+#### Autostart
 `sudo update-rc.d -f postgresql remove`
 
-####Default####
+#### Default
 How to update alternatives for Linux Default Editor
 
 `sudo update-alternatives --config editor`
 
 
-####GUI####
+#### GUI
 
 CompizConfig Settings Manager call it as `ccsm` then choose:
 ```
@@ -23,8 +23,19 @@ Desktop->Ubuntu Unity Plugin
                 <DISABLED>
 ```
 
-###Redhat###
+### Redhat
 
-####RPM####
+#### RPM
 
 [You've been told that working with RPMs needs system administrator privileges? You've been misled.](http://www.nordugrid.org/documents/rpm_for_everybody.html)
+
+#### GUI
+
+[Automatic Login](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/Desktop_Migration_and_Administration_Guide/user-sessions.html#configuring-automatic-login)
+
+    /etc/gdm/custom.conf
+    [daemon]
+    AutomaticLoginEnable=True
+    AutomaticLogin=john
+
+
