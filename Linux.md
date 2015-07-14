@@ -38,9 +38,9 @@ Desktop->Ubuntu Unity Plugin
     AutomaticLoginEnable=True
     AutomaticLogin=john
 
-### GRUB
+#### GRUB
 
-#### Default Kernel
+##### Default Kernel
 
 [Customizing GRUB](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/System_Administrators_Guide/sec-Customizing_GRUB_2_Menu.html)
 
@@ -54,3 +54,12 @@ To force a system to always use a particular menu entry, use the menu entry name
     awk -F\' '$1=="menuentry " {print $2}' /etc/grub2.cfg
     
   
+#### SVN
+The standard svn included in RHEL7 does not support http and https schemes.
+There is another svn from Wandisco prepared so the solution is to remove
+Redhat delivered svn, exclude it from the repository and pick that one from Wandisco.
+An extra repository (EPEL) is required to fully satisfy dependencies.
+The story is mentioned in two following articles:
+
+1. [Install Subversion 1.8.9](http://tecadmin.net/install-subversion-1-8-on-centos-rhel/)
+2. [EPEL and REMI](http://tecadmin.net/install-epel-and-remi-repository-on-centos-and-redhat/)
