@@ -53,6 +53,14 @@ in `/etc/yum.conf`:
     proxy_username=myuser
     proxy_password=mypassword
 
+yum group list
+yum group install 'Server with GUI'
+yum group install 'Development Tools'
+
+#### default runlevel
+
+    systemctl get-default
+    systemctl set-default graphical.target
 
 #### GRUB
 
