@@ -37,7 +37,7 @@ Get familiar with Network Manager CLI:
     
 http://www.certdepot.net/rhel7-get-started-nmcli/
 
-
+Modify /etc/sysconfig/network-scripts/ifcfg* with DOMAIN="domain.com sub.domain.com"
 
 #### RPM
 
