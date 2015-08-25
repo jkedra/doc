@@ -100,3 +100,9 @@ The story is mentioned in two following articles:
 
 1. [Install Subversion 1.8.9](http://tecadmin.net/install-subversion-1-8-on-centos-rhel/)
 2. [EPEL and REMI](http://tecadmin.net/install-epel-and-remi-repository-on-centos-and-redhat/)
+
+#### GIT 
+GIT missess SVN support with an error of `"Can't locate SVN/Core.pm in @INC"`. The missing
+part is present in WandiscoSVN repository:
+
+    yum --enablerepo=* install subversion-perl
