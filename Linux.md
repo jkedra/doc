@@ -45,6 +45,15 @@ Desktop->Ubuntu Unity Plugin
 
 https://lists.ubuntu.com/archives/kubuntu-users/2006-June/006626.html
 
+#### YUM
+
+in `/etc/yum.conf`:
+
+    proxy=http://myproxy:80/
+    proxy_username=myuser
+    proxy_password=mypassword
+
+
 #### GRUB
 
 ##### Default Kernel
