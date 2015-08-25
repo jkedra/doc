@@ -38,6 +38,13 @@ Desktop->Ubuntu Unity Plugin
     AutomaticLoginEnable=True
     AutomaticLogin=john
 
+#### ls colors for black terminals
+
+    /etc/profile.d/colorls.sh
+    /etc/DIR_COLORS
+
+https://lists.ubuntu.com/archives/kubuntu-users/2006-June/006626.html
+
 #### GRUB
 
 ##### Default Kernel
