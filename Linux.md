@@ -25,6 +25,20 @@ Desktop->Ubuntu Unity Plugin
 
 ### Redhat
 
+    hostnamectl --static set-hostname oel7
+    systemctl restart systemd-hostnamed
+    
+Get familiar with Network Manager CLI:
+
+    nmcli -p g
+    nmcli connection
+    nmcli c show *connection-id*
+    nmcli device show
+    
+http://www.certdepot.net/rhel7-get-started-nmcli/
+
+
+
 #### RPM
 
 [You've been told that working with RPMs needs system administrator privileges? You've been misled.](http://www.nordugrid.org/documents/rpm_for_everybody.html)
