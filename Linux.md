@@ -66,10 +66,14 @@ in `/etc/yum.conf`:
 
 
     yum install oracle-rdbms-server-12cR1-preinstall
-#### default runlevel
+
+#### systemctl
 
     systemctl get-default
     systemctl set-default graphical.target
+    systemctl list-unit-files
+    systemctl disable microcode.service
+
 
 #### GRUB
 
