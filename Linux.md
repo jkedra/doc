@@ -53,15 +53,19 @@ in `/etc/yum.conf`:
     proxy_username=myuser
     proxy_password=mypassword
 
-yum group list
-yum group install 'Server with GUI'
-yum group install 'Development Tools'
+
+    yum group list
+    yum group install 'Server with GUI'
+    yum group install 'Development Tools'
+
 
     rpm --httpproxy=user:pass@proxyhost --httpport=80 -Uvh \
       http://dl.fedoraproject.org/pub/epel/7/x86_64/e/epel-release-7-5.noarch.rpm
     rpm --httpproxy=user:pass@proxyhost --httpport=80 -Uvh \  
       http://rpms.famillecollet.com/enterprise/remi-release-7.rpm
 
+
+    yum install oracle-rdbms-server-12cR1-preinstall
 #### default runlevel
 
     systemctl get-default
