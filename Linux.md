@@ -37,7 +37,7 @@ Get familiar with Network Manager CLI:
     
 http://www.certdepot.net/rhel7-get-started-nmcli/
 
-Modify /etc/sysconfig/network-scripts/ifcfg* with DOMAIN="domain.com sub.domain.com"
+Modify /etc/sysconfig/network-scripts/ifcfg\* with DOMAIN="domain.com sub.domain.com"
 
 #### RPM
 
@@ -120,3 +120,10 @@ GIT missess SVN support with an error of `"Can't locate SVN/Core.pm in @INC"`. T
 part is present in WandiscoSVN repository:
 
     yum --enablerepo=* install subversion-perl
+
+#### BTRFS
+`chattr +C` on directory to disable Copy-On-Write (COW).
+Later `lsattr file` shows if it works correctly, the 'C'
+attribute means we have NOCOW.
+
+
