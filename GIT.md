@@ -1,3 +1,4 @@
+vim:ts=4
 # Aliases #
 
     git config --global alias.co checkout
@@ -8,7 +9,7 @@
     git config --global alias.unstage 'reset HEAD --'
     git config --global alias.last 'log -1 HEAD'
     git config --global alias.alias 'config --global --get-regexp alias.\*'
-    git config --global alias.logf 'log --name-only'
+    git config --global alias.logf 'log --name-only --abbrev-commit'
     git config --global alias.logg 'log --pretty=format:"%h %s" --graph'
     git config --global alias.diffl 'diff HEAD~'
 
@@ -347,6 +348,8 @@ Branching
 Merging
 -------
 
+	git merge --squash	
+ 
     git merge <branch>
       merge branch <branch> into the current branch; this command is idempotent
       and can be run as many times as needed to keep the current branch
