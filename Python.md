@@ -20,9 +20,12 @@
 ### Python 3.5 at RHEL 7 ###
 
 1. Remove existing (or similar) installation
+
    `yum remove python34-libs-3.4.3-7.el7 python34`
+
 2. Install Python 3.5  
-   Useful article on that can be [found here][1]. 
+
+   Useful article on that can be [found here][1].  
    `yum install -y https://centos7.iuscommunity.org/ius-release.rpm`  
    `yum install -y python35u python35u-pip python35u-devel`  
 
