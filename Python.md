@@ -21,8 +21,8 @@
 
 1. Remove existing (or similar) installation
    `yum remove python34-libs-3.4.3-7.el7 python34`
-2. Install Python 3.5
-   Useful article on that can be [found here][1].  
+2. Install Python 3.5  
+   Useful article on that can be [found here][1]. 
    `yum install -y https://centos7.iuscommunity.org/ius-release.rpm`  
    `yum install -y python35u python35u-pip python35u-devel`  
 
@@ -31,13 +31,13 @@
    `pip3.5 install pbr`  
    `pip3.5 install virtualenvwrapper`  
 
-3. Install Oracle 12c libraries
+3. Install Oracle 12c libraries  
    [Source][2].
 
    `echo $ORACLE_HOME/lib >> /etc/ld.so.conf.d/oracle.conf`  
    `ldconfig`  
 
-   I encountered some issues with broken pip3.5 after Oracle  
+   I encountered some issues with broken pip3.5 after Oracle
    has been installed. It has been mentioned [here][issue1].  
    `export ORACLE_HOME=/opt/oracle/product/11.2.0/dbhome_1`  
 
@@ -50,7 +50,7 @@
    `rpm -Uvh oracle-instantclient12.1-devel-12.1.0.2.0-1.x86_64.rpm`  
    `rpm -Uvh oracle-instantclient12.1-sqlplus-12.1.0.2.0-1.x86_64.rpm`  
 
-4. Now install cx_Oracle
+4. Now install cx_Oracle  
    `pip3.5 install cx_Oracle`
 
 ## WWW ##
