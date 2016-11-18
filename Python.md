@@ -15,6 +15,44 @@
 2. General Templates:
    - [Mustache](http://mustache.github.io/) - a trivial template not only for Python.
 
+## Install ##
+
+### Python 3.5 at RHEL 7 ###
+
+1. Remove existing (or similar) installation
+   `yum remove python34-libs-3.4.3-7.el7 python34`
+2. Install Python 3.5
+   Useful article on that can be [found here][1].
+   `yum install -y https://centos7.iuscommunity.org/ius-release.rpm`
+   `yum install -y python35u python35u-pip python35u-devel`
+
+   The `virtualenv` might be also useful later, so let's install it now:
+   `pip3.5 install virtualenv`
+   `pip3.5 install pbr`
+   `pip3.5 install virtualenvwrapper`
+
+3. Install Oracle 12c libraries
+   [Source][2].
+
+   `echo $ORACLE_HOME/lib >> /etc/ld.so.conf.d/oracle.conf`  
+   `ldconfig`  
+
+   I encountered some issues with broken pip3.5 after Oracle  
+   has been installed. It has been mentioned [here][issue1].  
+   `export ORACLE_HOME=/opt/oracle/product/11.2.0/dbhome_1`  
+
+   `cd $ORACLE_HOME/lib/`  
+   `mv libexpat.so libexpat.NOF`  
+   `ldconfig`  
+
+   `yum install libaio`  
+   `rpm -Uvh oracle-instantclient12.1-basic-12.1.0.2.0-1.x86_64.rpm`  
+   `rpm -Uvh oracle-instantclient12.1-devel-12.1.0.2.0-1.x86_64.rpm`  
+   `rpm -Uvh oracle-instantclient12.1-sqlplus-12.1.0.2.0-1.x86_64.rpm`  
+
+4. Now install cx_Oracle
+   `pip3.5 install cx_Oracle`
+
 ## WWW ##
 
 ### WWW Templates ###
@@ -34,3 +72,6 @@ Django is not only about templates. It deserves a dedicated section.
 2. [Tutorial Files](https://github.com/django/djangoproject.com)
 
 
+[1]: http://stackoverflow.com/questions/8087184/problems-installing-python3-on-rhel
+[2]: https://www.mylinuxplace.com/install-cx_oracle-on-centos-7/
+[issue1]: https://bbs.archlinux.org/viewtopic.php?id=140916
