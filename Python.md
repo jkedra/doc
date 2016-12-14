@@ -25,7 +25,10 @@
 
 2. Install Python 3.5  
 
-   Useful article on that can be [found here][1].  
+   Useful article on that can be [found here][1] [and here][3].  
+   `wget https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm`
+   `rpm -ivh epel-release-latest-7.noarch.rpm`
+   `yum update`
    `yum install -y https://centos7.iuscommunity.org/ius-release.rpm`  
    `yum install -y python35u python35u-pip python35u-devel`  
 
@@ -78,3 +81,4 @@ Django is not only about templates. It deserves a dedicated section.
 [1]: http://stackoverflow.com/questions/8087184/problems-installing-python3-on-rhel
 [2]: https://www.mylinuxplace.com/install-cx_oracle-on-centos-7/
 [issue1]: https://bbs.archlinux.org/viewtopic.php?id=140916
+[3]: http://unversioned.blogspot.com/2015/08/installing-epel-repo-to-oracle-linux-7.html
